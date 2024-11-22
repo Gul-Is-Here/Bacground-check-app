@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426071864855",
+    "project_id": "backgroud-check-app",
+    "storage_bucket": "backgroud-check-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426071864855:android:68f7f407b0ba420a778e52",
+        "android_client_info": {
+          "package_name": "com.guldev.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPD9o_KutBRlTX7F7G6sYxsP8C58rfEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
