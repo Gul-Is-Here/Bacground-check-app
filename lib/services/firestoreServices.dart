@@ -7,11 +7,13 @@ class FirestoreService {
     required String userId,
     required String userName,
     required String email,
+    required String password
   }) async {
     try {
       await _firestore.collection('users').doc(userId).set({
         'userName': userName,
         'email': email,
+        'password':password,
         'createdAt': DateTime.now().toIso8601String(),
       });
     } catch (e) {
